@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Circularstd';
+    src: url(fonts/circular-std-medium-500.ttf) format('truetype');
+}
+.navbar {
+    background-color: #ff6b81;
+    overflow: hidden;
+    color: #fff;
+    padding: 14px 16px;
+    
+    
+}
+body {
+    
+    font-family: Arial, sans-serif; 
+    background-color: #ffffff;
+    color: #000000;
+    padding-bottom: 100px;
+}
+
+.product-image {
+    display: block;
+    max-width: 50%;
+    min-width: 200px;
+    height: auto;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.product-description {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ff6b81; 
+    color: #fff; 
+    width: 70%;
+}
+
+.product-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.add-to-cart {
+    background-color: #ff6b81;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #ff0000; 
+    color: #ffffff;
+}
+
+.product-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+    margin-top: 40px;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+}
